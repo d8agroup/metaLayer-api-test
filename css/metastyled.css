@@ -1,0 +1,32 @@
+body {
+	background: #231F20;
+	font-size: 14px;
+}
+
+/* Color Schema: #231F20, #F15E00, #FDFF3A, #F19C28, #211F20, #A12E33 */
+
+#content-1 {
+	background: #fff;
+	width:500px;
+	border:10px solid #A12E33;
+	padding:20px;
+	margin:100px 0 0 100px;	
+	float:left;
+}
+
+#content-2 {
+	background: #fff;
+	width:500px;
+	border:10px solid #A12E33;
+	padding:20px;
+	margin:100px 0 0 100px;	
+	float:left;
+}
+
+.title {
+	color: #A12E33;
+}
+
+#go {
+	background:#fff;
+}

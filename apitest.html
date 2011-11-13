@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>metaLayer API Gadget</title>
+<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="css/metastyled.css" />
+<!--[if lt IE 8]>
+  <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+<![endif]-->
+</head>
+	<body>
+		<div id="content-1">
+		<h1>dataLayer Test</h1>
+		<p>Copy and paste text here to give our text analysis API a try. You'll get back a JSON result.</p>
+		<form action='http://api.metalayer.com/s/datalayer/1/bundle' method='POST'>
+			<input type='hidden' name='api_key' value='something'/>
+			<textarea name='text' class='text' ></textarea><br />
+			<input type='submit' value='Go' />
+		</form>
+		</div>
+		
+		<div id="content-2">
+		<h1>imgLayer Test</h1>
+		<p>Add an image from your hard drive. You'll get back a JSON result.</p>
+		<form action='http://api.metalayer.com/s/imglayer/1/bundle' method='POST' enctype="multipart/form-data">
+			<input type='hidden' name='api_key' value='null' />
+			<input type='hidden' name='image_id' value='TEST' />
+			<input type='file' name='image' /><br />
+			<input type='submit' value='Upload'/>
+		</form>
+		</div>
+		
+	</body>
+</html>
